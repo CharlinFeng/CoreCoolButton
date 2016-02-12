@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89039D5C1C6DFDF100AEE50B /* CoreCoolButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 89039D541C6DFDF100AEE50B /* CoreCoolButton.m */; };
+		89039D5D1C6DFDF100AEE50B /* DeformationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 89039D581C6DFDF100AEE50B /* DeformationButton.m */; };
+		89039D5E1C6DFDF100AEE50B /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 89039D5B1C6DFDF100AEE50B /* MMMaterialDesignSpinner.m */; };
 		89DCDB811C39239700CE7E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCDB801C39239700CE7E8F /* main.m */; };
 		89DCDB841C39239700CE7E8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCDB831C39239700CE7E8F /* AppDelegate.m */; };
 		89DCDB871C39239700CE7E8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCDB861C39239700CE7E8F /* ViewController.m */; };
 		89DCDB8A1C39239700CE7E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DCDB881C39239700CE7E8F /* Main.storyboard */; };
 		89DCDB8C1C39239700CE7E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DCDB8B1C39239700CE7E8F /* Assets.xcassets */; };
 		89DCDB8F1C39239700CE7E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DCDB8D1C39239700CE7E8F /* LaunchScreen.storyboard */; };
-		89DCDB9E1C3923B700CE7E8F /* DeformationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCDB9A1C3923B700CE7E8F /* DeformationButton.m */; };
-		89DCDB9F1C3923B700CE7E8F /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCDB9D1C3923B700CE7E8F /* MMMaterialDesignSpinner.m */; };
-		89DCDBA21C3923D000CE7E8F /* CoreCoolButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DCDBA11C3923D000CE7E8F /* CoreCoolButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89039D531C6DFDF100AEE50B /* CoreCoolButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreCoolButton.h; sourceTree = "<group>"; };
+		89039D541C6DFDF100AEE50B /* CoreCoolButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreCoolButton.m; sourceTree = "<group>"; };
+		89039D571C6DFDF100AEE50B /* DeformationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeformationButton.h; sourceTree = "<group>"; };
+		89039D581C6DFDF100AEE50B /* DeformationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeformationButton.m; sourceTree = "<group>"; };
+		89039D5A1C6DFDF100AEE50B /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		89039D5B1C6DFDF100AEE50B /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
 		89DCDB7C1C39239700CE7E8F /* CoreCoolButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreCoolButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DCDB801C39239700CE7E8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89DCDB821C39239700CE7E8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,12 +35,6 @@
 		89DCDB8B1C39239700CE7E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89DCDB8E1C39239700CE7E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89DCDB901C39239700CE7E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89DCDB991C3923B700CE7E8F /* DeformationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeformationButton.h; sourceTree = "<group>"; };
-		89DCDB9A1C3923B700CE7E8F /* DeformationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeformationButton.m; sourceTree = "<group>"; };
-		89DCDB9C1C3923B700CE7E8F /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
-		89DCDB9D1C3923B700CE7E8F /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
-		89DCDBA01C3923D000CE7E8F /* CoreCoolButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreCoolButton.h; sourceTree = "<group>"; };
-		89DCDBA11C3923D000CE7E8F /* CoreCoolButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreCoolButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89039D521C6DFDF100AEE50B /* CoreCoolButton */ = {
+			isa = PBXGroup;
+			children = (
+				89039D531C6DFDF100AEE50B /* CoreCoolButton.h */,
+				89039D541C6DFDF100AEE50B /* CoreCoolButton.m */,
+				89039D551C6DFDF100AEE50B /* Lib */,
+			);
+			path = CoreCoolButton;
+			sourceTree = "<group>";
+		};
+		89039D551C6DFDF100AEE50B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				89039D561C6DFDF100AEE50B /* Source */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		89039D561C6DFDF100AEE50B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				89039D571C6DFDF100AEE50B /* DeformationButton.h */,
+				89039D581C6DFDF100AEE50B /* DeformationButton.m */,
+				89039D591C6DFDF100AEE50B /* MMMaterialDesignSpinner-master */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		89039D591C6DFDF100AEE50B /* MMMaterialDesignSpinner-master */ = {
+			isa = PBXGroup;
+			children = (
+				89039D5A1C6DFDF100AEE50B /* MMMaterialDesignSpinner.h */,
+				89039D5B1C6DFDF100AEE50B /* MMMaterialDesignSpinner.m */,
+			);
+			path = "MMMaterialDesignSpinner-master";
+			sourceTree = "<group>";
+		};
 		89DCDB731C39239700CE7E8F = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +104,7 @@
 		89DCDB7E1C39239700CE7E8F /* CoreCoolButton */ = {
 			isa = PBXGroup;
 			children = (
-				89DCDB961C3923B700CE7E8F /* CoreCoolButton */,
+				89039D521C6DFDF100AEE50B /* CoreCoolButton */,
 				89DCDB821C39239700CE7E8F /* AppDelegate.h */,
 				89DCDB831C39239700CE7E8F /* AppDelegate.m */,
 				89DCDB851C39239700CE7E8F /* ViewController.h */,
@@ -87,43 +124,6 @@
 				89DCDB801C39239700CE7E8F /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		89DCDB961C3923B700CE7E8F /* CoreCoolButton */ = {
-			isa = PBXGroup;
-			children = (
-				89DCDB971C3923B700CE7E8F /* Lib */,
-				89DCDBA01C3923D000CE7E8F /* CoreCoolButton.h */,
-				89DCDBA11C3923D000CE7E8F /* CoreCoolButton.m */,
-			);
-			path = CoreCoolButton;
-			sourceTree = "<group>";
-		};
-		89DCDB971C3923B700CE7E8F /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				89DCDB981C3923B700CE7E8F /* Source */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		89DCDB981C3923B700CE7E8F /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				89DCDB991C3923B700CE7E8F /* DeformationButton.h */,
-				89DCDB9A1C3923B700CE7E8F /* DeformationButton.m */,
-				89DCDB9B1C3923B700CE7E8F /* MMMaterialDesignSpinner-master */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		89DCDB9B1C3923B700CE7E8F /* MMMaterialDesignSpinner-master */ = {
-			isa = PBXGroup;
-			children = (
-				89DCDB9C1C3923B700CE7E8F /* MMMaterialDesignSpinner.h */,
-				89DCDB9D1C3923B700CE7E8F /* MMMaterialDesignSpinner.m */,
-			);
-			path = "MMMaterialDesignSpinner-master";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,12 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89DCDB9F1C3923B700CE7E8F /* MMMaterialDesignSpinner.m in Sources */,
-				89DCDBA21C3923D000CE7E8F /* CoreCoolButton.m in Sources */,
 				89DCDB871C39239700CE7E8F /* ViewController.m in Sources */,
+				89039D5C1C6DFDF100AEE50B /* CoreCoolButton.m in Sources */,
 				89DCDB841C39239700CE7E8F /* AppDelegate.m in Sources */,
-				89DCDB9E1C3923B700CE7E8F /* DeformationButton.m in Sources */,
 				89DCDB811C39239700CE7E8F /* main.m in Sources */,
+				89039D5E1C6DFDF100AEE50B /* MMMaterialDesignSpinner.m in Sources */,
+				89039D5D1C6DFDF100AEE50B /* DeformationButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +350,7 @@
 				89DCDB951C39239700CE7E8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

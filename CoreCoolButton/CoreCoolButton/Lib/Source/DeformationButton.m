@@ -17,10 +17,10 @@
     UIImage *btnBackgroundImage;
 }
 
-
 -(CGRect)frame{
     CGRect frame = [super frame];
     self.forDisplayButton.frame = frame;
+
     return frame;
 }
 
@@ -70,8 +70,6 @@
     self.spinnerView.userInteractionEnabled = NO;
     [self addSubview:self.spinnerView];
     
-    [self addTarget:self action:@selector(loadingAction) forControlEvents:UIControlEventTouchUpInside];
-    
     self.forDisplayButton = [[UIButton alloc]initWithFrame:self.bounds];
     [self.forDisplayButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     self.forDisplayButton.userInteractionEnabled = NO;
@@ -100,15 +98,11 @@
     }
 }
 
-- (void)loadingAction{
-    if (self.isLoading) {
-        [self stopLoading];
-    }else{
-        [self startLoading];
-    }
-}
 
 - (void)startLoading{
+    
+    if(self.isLoading){return;}
+    
     if (btnBackgroundImage == nil) {
         btnBackgroundImage = [self.forDisplayButton backgroundImageForState:UIControlStateNormal];
     }
@@ -116,7 +110,6 @@
     _isLoading = YES;
     
     bgView.hidden = NO;
-    
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"cornerRadius"];
     animation.timingFunction = [CAMediaTimingFunction     functionWithName:kCAMediaTimingFunctionLinear];
     animation.fromValue = [NSNumber numberWithFloat:defaultR];

@@ -22,4 +22,7 @@
 @property (nonatomic,copy) NSString *title;
 @property (nonatomic,strong) UIColor *titleColor;
 
+- (void)startLoading;
+- (void)stopLoading;
+
 @end
